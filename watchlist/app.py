@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 
-name = 'Grey Li'
+name = 'zhouyi'
 movies = [
     {'title': 'My Neighbor Totoro', 'year': '1988'},
     {'title': 'Dead Poets Society', 'year': '1989'},
