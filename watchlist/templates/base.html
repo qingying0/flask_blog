@@ -128,6 +128,11 @@
             border-color: #b8daff;
             border-radius: 5px;
         }
+
+        #login {
+            display: inline-block;
+            width: 50px;
+        }
     </style>
     {% endblock %}
 </head>
@@ -141,7 +146,8 @@
     </h2>
     <nav>
         <ul>
-            <li><a href="{{ url_for('index') }}">Home</a> </li>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a id="login" href="{{ url_for('login') }}">login</a></li>
         </ul>
     </nav>
     {% block content %}{% endblock %}
